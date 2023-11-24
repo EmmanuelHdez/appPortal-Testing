@@ -1,0 +1,1 @@
+# appBase-portaluk
