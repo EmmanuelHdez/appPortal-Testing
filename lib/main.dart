@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       ),
       title: 'Portal UK App',
       debugShowCheckedModeBanner: false,
-      initialRoute: AppRoutes.homeScreenPage,
+      initialRoute: AppRoutes.loginScreen,
       routes: AppRoutes.routes,
     );
   }
