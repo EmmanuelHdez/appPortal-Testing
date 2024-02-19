@@ -29,4 +29,4 @@ jobs:
 
       - name: Start release build
         working-directory: ./src
-        run: flutter build appbundle
+        run: flutter build apk
