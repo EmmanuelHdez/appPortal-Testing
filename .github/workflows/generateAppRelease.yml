@@ -5,7 +5,6 @@ on:
   pull_request:
     branches: [ "master" ]
 
-  workflow_dispatch:
 jobs:
   version:
     name: Version Number
@@ -84,5 +83,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: appbundle
-          path: build/app/outputs/bundle/release/app-release.aab
+          path: src/build/app/outputs/bundle/release/app-release.aab
 
