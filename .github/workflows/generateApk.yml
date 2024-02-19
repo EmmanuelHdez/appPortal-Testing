@@ -16,9 +16,6 @@ jobs:
           distribution: 'zulu'
           java-version: "12.x"
           cache: 'gradle'
-
-      - name: Navigate to src directory
-        run: cd src
           
       - uses: subosito/flutter-action@v2
         with:          
@@ -27,7 +24,9 @@ jobs:
           cache: true
           
       - name: Get dependencies
+        working-directory: ./src
         run: flutter pub get
 
       - name: Start release build
+        working-directory: ./src
         run: flutter build appbundle
