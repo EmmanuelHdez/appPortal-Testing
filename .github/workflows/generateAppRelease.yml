@@ -5,6 +5,8 @@ on:
   pull_request:
     branches: [ "master" ]
 
+workflow_dispatch:
+
 jobs:
   version:
     name: Version Number
