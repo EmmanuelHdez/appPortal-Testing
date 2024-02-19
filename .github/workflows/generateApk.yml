@@ -28,6 +28,7 @@ jobs:
         run: flutter pub get
 
       - name: Create upload-keystore.jks file
+        working-directory: ./src
         run: |
           echo "${{ secrets.JKS_B64 }}" | base64 --decode > android/app/upload-keystore.jks
           echo "${{ secrets.KEY_PROPERTIES }}" > android/key.properties
