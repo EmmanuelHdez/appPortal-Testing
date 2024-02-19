@@ -7,8 +7,6 @@ on:
 
   workflow_dispatch:
 jobs:
-
-
   version:
     name: Version Number
     runs-on: ubuntu-latest
