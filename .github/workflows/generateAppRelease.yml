@@ -1,4 +1,4 @@
-name: Generate Android Release
+name: Generate Android Release and Submit for Aproval
 on:  
   push:
     branches: [ "master" ]
