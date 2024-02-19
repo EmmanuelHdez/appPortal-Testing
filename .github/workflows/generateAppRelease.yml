@@ -78,11 +78,11 @@ jobs:
 
       - name: Start and Generate App Bundle
         working-directory: ./src        
-        run: flutter build appbundle --release 
+        run: flutter build appbundle 
         
       - name: Upload App Bundle and ready to submit 
         uses: actions/upload-artifact@v4
         with:
           name: appbundle
-          path: src/build/app/outputs/flutter-apk/app-release.aab
+          path: build/app/outputs/bundle/release/app-release.aab
 
