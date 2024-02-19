@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "289837886763",
+    "project_id": "flutterapp-da175",
+    "storage_bucket": "flutterapp-da175.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289837886763:android:746f2dce9f70187388296e",
+        "android_client_info": {
+          "package_name": "com.psychiatryuk.src"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyx7RI7_Ts6wlru55dpYf9WR5F2gJjWYA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

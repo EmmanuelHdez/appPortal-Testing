@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "96794772616",
+    "project_id": "psych-uk-medqare-companion",
+    "storage_bucket": "psych-uk-medqare-companion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:96794772616:android:f5400fac72aaa241c18b3d",
+        "android_client_info": {
+          "package_name": "com.psychiatryuk.src"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCXeH3LNOkk77BBJnl0aEyKyVIYXUoC04"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
