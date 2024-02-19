@@ -27,6 +27,11 @@ jobs:
         working-directory: ./src
         run: flutter pub get
 
+      - name: Create keystore.jks file
+        run: |
+          echo "${{ secrets.JKS_B64 }}" | base64 --decode > android/app/keystore.jks
+          echo "${{ secrets.KEY_PROPERTIES }}" > android/key.properties
+
       - name: Start release build
         working-directory: ./src
         run: flutter build apk --release
