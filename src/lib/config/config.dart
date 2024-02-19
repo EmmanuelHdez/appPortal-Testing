@@ -1,0 +1,22 @@
+export 'constants/environment_config.dart';
+const String AZURE_TOKEN_KEY = 'tokenAzure';
+const String TOKEN_KEY = 'token';
+const String CURRENT_USER = 'currentUser';
+const String USER_FIRSTNAME = 'fistName';
+const String USER_LASTNAME = 'lastName';
+const String USER_NAME = 'name';
+const String USER_PREF_FIRSTNAME = 'prefFirstName';
+const String USER_PREF_MIDDLENAME = 'prefMiddleName';
+const String USER_PREF_LASTNAME = 'prefLastName';
+const String USER_ID = 'userId';
+const String PATIENT_ID = 'patientId';
+const String USER_EMAIL = 'email';
+const int ADHDTX_FORMCOUNTER_MAX = 6;
+const int SNAP4_FORMCOUNTER_MAX = 6;
+const String SHOW_CONFIG_SETTINGS_MODAL = 'showMySettingsApp';
+const String PREF_AUTH_METHODS_SAVED = 'prefAuthMethodsSaved';
+const String FINGERPRINT_ENABLED = "fingerprintEnabled";
+const String FINGERPRINT_NOFIRSTLOGIN = "fingerprintNoFirstLogin"; // Variable to determine if user can select fingerprint first login
+const String FINGERPRINT_COMPATIBLE = "fingerprintCompatible"; // Variable to determine if fingerprint is configured and compatible
+const String DEVICE_PUBLIC_IP = "devicePublicIP";
+const String DEVICE_OS = "deviceOS";
