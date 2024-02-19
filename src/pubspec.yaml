@@ -1,7 +1,7 @@
 name: src
 description: Psychiatry-UK Patient Portal Mobile App.
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
-version: 1.0.5+1
+version: 99.99.99+99
 
 environment:
   sdk: ">=3.1.2 <4.0.0"
