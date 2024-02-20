@@ -1,9 +1,9 @@
 name: Generate Android Release and Submit for Aproval
 on:  
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
   workflow_dispatch:
 
 jobs:
