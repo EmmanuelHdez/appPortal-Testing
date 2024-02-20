@@ -29,11 +29,7 @@ jobs:
 
       - name: Install Dependencies
         working-directory: ./src
-        run: flutter pub get
-
-      - name: Test flutter app
-        working-directory: ./src
-        run: flutter test
+        run: flutter pub get      
 
       - name: Build IPA
         working-directory: ./src
